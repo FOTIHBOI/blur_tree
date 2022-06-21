@@ -1,0 +1,28 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-image: url(https://avatars.mds.yandex.net/i?id=1e4a4449681c5d7c3e25f13d394e2f72-5869551-images-thumbs&n=13);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.div1{
+    width: 405px;
+    margin-left: 122px;
+    border-radius: 19px;
+    height: 500px;
+    margin-top: 40px;
+    backdrop-filter:blur(5px);
+    background-color: rgba(0, 0, 0, 0.329);
+}
+.div1:hover{
+   
+    backdrop-filter:blur(0);
+}
